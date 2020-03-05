@@ -3,6 +3,7 @@
   <name>Cobblestone Floors</name>
   <url>https://ludeon.com/forums/index.php?topic=25580.0</url>
   <author>BaconBits</author>
+  <packageId>teflonjim.cobblestonefloors</packageId>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>

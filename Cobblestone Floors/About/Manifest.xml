@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Manifest>
+  <identifier>Cobblestone Floors</identifier>
+  <version>2.0.0</version>
+  <manifestUri>https://raw.githubusercontent.com/TeflonJim/CobblestoneFloors/master/source/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/TeflonJim/CobblestoneFloors/releases/latest</downloadUri>
+</Manifest>
