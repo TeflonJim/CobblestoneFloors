@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DesignatorDropdownGroupDef>
+        <defName>Floor_Cobblestone</defName>
+    </DesignatorDropdownGroupDef>
+
+    <TerrainDef Abstract="True" Name="CobblestoneFloor">
+        <description>a cobblestone floor that is built from loose stones on the ground at no cost.</description>
+        <texturePath>Terrain/Surfaces/CobblestoneFloor</texturePath>
+        <renderPrecedence>250</renderPrecedence>
+        <layerable>true</layerable>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+        </affordances>
+        <designationCategory>Floors</designationCategory>
+        <fertility>0</fertility>
+        <constructEffect>ConstructDirt</constructEffect>
+        <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <statBases>
+            <Beauty>1</Beauty>
+            <WorkToBuild>500</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <designatorDropdown>Floor_Cobblestone</designatorDropdown>
+    </TerrainDef>
+
+    <TerrainDef ParentName="CobblestoneFloor">
+        <defName>CobblestoneSandstone</defName>
+        <label>sandstone cobblestone</label>
+        <color>(126,104,94)</color>
+    </TerrainDef>
+
+    <TerrainDef ParentName="CobblestoneFloor">
+        <defName>CobblestoneGranite</defName>
+        <label>granite cobblestone</label>
+        <color>(105,95,97)</color>
+    </TerrainDef>
+
+    <TerrainDef ParentName="CobblestoneFloor">
+        <defName>CobblestoneLimestone</defName>
+        <label>limestone cobblestone</label>
+        <color>(158,153,135)</color>
+    </TerrainDef>
+
+    <TerrainDef ParentName="CobblestoneFloor">
+        <defName>CobblestoneSlate</defName>
+        <label>slate cobblestone</label>
+        <color>(70,70,70)</color>
+    </TerrainDef>
+
+    <TerrainDef ParentName="CobblestoneFloor">
+        <defName>CobblestoneMarble</defName>
+        <label>marble cobblestone</label>
+        <color>(132,135,132)</color>
+    </TerrainDef>
+</Defs>

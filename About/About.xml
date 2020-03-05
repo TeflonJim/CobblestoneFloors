@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cobblestone Floors</name>
+  <url>https://ludeon.com/forums/index.php?topic=25580.0</url>
+  <author>BaconBits</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>Adds a cobblestone floor that is built from loose stones on the ground at no cost.</description>
+</ModMetaData>
